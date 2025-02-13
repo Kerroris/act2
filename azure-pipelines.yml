@@ -23,9 +23,9 @@ steps:
 
 - task: SonarQubePrepare@7
   inputs:
-    SonarQube: 'SonarQubeServiceConnection'
+    SonarQube: 'sonarqubeserviceconection'
     scannerMode: 'dotnet'
-    projectKey: 'sonarqubecyh'
+    projectKey: 'sonarqubekcm'
     
 - task: VSBuild@1
   inputs:
